@@ -1,3 +1,3 @@
 # Interpreting-Self-Debiasing-Methods-Research
 
-ActivationProbe-Explanation-StereotypedVSNon.ipynb
+These files include various python files from my research on the BBQ Bias benchmark and various self debiasing methods used to reduce the bias on that benchmark. I first took the bias benchmark-- BBQ from https://arxiv.org/pdf/2110.08193. I tested Gemma 2.0 on the benchmark in BBQExperimentReplication--BaselineBias.ipynb. I then replicated https://arxiv.org/pdf/2402.01981 with Gemma 2.0 and tested their two methods: explanation prompting and reprompting on the BBQ benchmark in BBQ-SelfDebiasing-ExplanationPromptingBBQResults.ipynb and BBQ-SelfDebiasing-RempromptingBBQResults.ipynb
