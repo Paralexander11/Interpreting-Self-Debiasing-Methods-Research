@@ -5,5 +5,30 @@ These files include various python files from my research on the BBQ Bias benchm
 # BBQ Results
 <img width="1888" height="678" alt="image" src="https://github.com/user-attachments/assets/44c16df6-67cf-4caf-ba8b-dbce32cdb632" />
 
-Here are the results for the BBQ experiment. Note that we including disambiguous questions, where the answer is included in the prompt. This resulted in a notable find that reprompted models tend to doubt their answers and answer unknown to many questions where the answer is stated in the prompt. Contact me or run the notebooks for more detailed results, including a category by category breakdown
+Here are the results for the BBQ experiment. Note that we including disambiguous questions, where the answer is included in the prompt. This resulted in a notable find that reprompted models tend to doubt their answers and answer unknown to many questions where the answer is stated in the prompt. Some more detailed results:
 
+<img width="913" height="319" alt="image" src="https://github.com/user-attachments/assets/2d0d7570-c518-48f1-ab84-ceb19b8023d8" />
+
+<img width="1790" height="590" alt="image" src="https://github.com/user-attachments/assets/9c0ad3a5-53df-4d23-b994-d4c7f1f04ee4" />
+
+<img width="1702" height="584" alt="image" src="https://github.com/user-attachments/assets/0b61928b-935c-4c35-b535-7d870b008232" />
+
+# Probe Results
+
+Using the classifier probe trained on the baseline to test on the self-debiased models found these results (IMPORTANT: ONLY RAN ON AGE CATEGORY:
+
+<img width="1702" height="584" alt="image" src="https://github.com/user-attachments/assets/ce6b56d2-d284-4d93-adf6-c669af013356" />
+
+# Jacobian Lens
+
+I also hand inputted over 50 prompts from the BBQ testing into neuronpedia to see how biased the Gemma model was in the Jacobian lens. The Jacobian lens attempts to look at the inner activations of the model and see what it is 'thinking. Hand grading the responses and what was activated in the lens (maybe not the most efficient way to do this) found these results:
+
+<img width="1798" height="696" alt="image" src="https://github.com/user-attachments/assets/61ece678-985a-49e3-b82c-c67f6ba07920" />
+
+What was especially interesting was the model tending to be very willing to discriminate with stereotypical names like here:
+
+<img width="1798" height="696" alt="image" src="https://github.com/user-attachments/assets/eb0d9a22-3ef2-4b43-80cc-bec794fa23c6" />
+
+The Gemma model answered Omar, and there are many other cases of this happening. 
+
+For more in depth results for any of this contact me at alecklen11@gmail.com, or run the code.
