@@ -29,6 +29,6 @@ What was especially interesting was the model tending to be very willing to disc
 
 <img width="1798" height="696" alt="image" src="https://github.com/user-attachments/assets/eb0d9a22-3ef2-4b43-80cc-bec794fa23c6" />
 
-The Gemma model answered Omar, and there are many other cases of this happening. 
+The Gemma model answered Omar, and there are many other cases of this name based discrimination happening. 
 
 For more in depth results for any of this contact me at alecklen11@gmail.com, or run the code.
