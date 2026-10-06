@@ -5,4 +5,5 @@ These files include various python files from my research on the BBQ Bias benchm
 # BBQ Results
 <img width="1888" height="678" alt="image" src="https://github.com/user-attachments/assets/44c16df6-67cf-4caf-ba8b-dbce32cdb632" />
 
-Here are the results for the BBQ experiment. Note that we including disambiguous questions, where the answer is included in the prompt. This resulted in a notable find that reprompted models tend to doubt their answers and answer unknown to many questions where the answer is stated in the prompt. Contact me or run the notebooks for more detailed results.
+Here are the results for the BBQ experiment. Note that we including disambiguous questions, where the answer is included in the prompt. This resulted in a notable find that reprompted models tend to doubt their answers and answer unknown to many questions where the answer is stated in the prompt. Contact me or run the notebooks for more detailed results, including a category by category breakdown
+
