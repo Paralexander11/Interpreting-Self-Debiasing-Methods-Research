@@ -29,6 +29,6 @@ What was especially interesting was the model tending to be very willing to disc
 
 <img width="1798" height="696" alt="image" src="https://github.com/user-attachments/assets/eb0d9a22-3ef2-4b43-80cc-bec794fa23c6" />
 
-The Gemma model answered Omar, and there are many other cases of this name based discrimination happening. 
+The Gemma model answered Omar, and there are many other cases of this name based discrimination happening, which is quite interesting. The Jacobian lens also overall showed many more slight clues of the model at least being aware of the stereotype and thinking about it more, if not answering with the stereotyped response as well. Any bias by a widely used model has much wider dangers, as millions of people use chatbots everyday, and eventually pick up their habits and eventually stereotypes. Having one of the most widely used open-source models be racist needs to be fixed.
 
 For more in depth results for any of this contact me at alecklen11@gmail.com, or run the code.
